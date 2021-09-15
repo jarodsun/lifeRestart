@@ -59,7 +59,7 @@ class Talent {
     }
 
     talentRandom(include, {times = 0, achievement = 0} = {}) {
-        const rate = { 1:100, 2:10, 3:1, };
+        const rate = { 1:1, 2:200, 3:10, };
         const rateAddition = { 1:1, 2:1, 3:1, };
         const timesRate = getRate('times', times);
         const achievementRate = getRate('achievement', achievement);
